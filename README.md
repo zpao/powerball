@@ -2,7 +2,7 @@
 
 Become a billionaire in seconds!
 
-This script will getch the *latest* powerball results and tell if you won. That's it.
+This script will fetch the *latest* powerball results and tell if you won. That's it.
 
 ## Usage
 
