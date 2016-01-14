@@ -28,7 +28,7 @@ fetch.fetchUrl(RESULT_URL, (err, meta, body) => {
 
   let results = body.toString().split(/\r?\n/)[1].split('  ');
   let resultDate = results[0];
-  let powerball = results[6]
+  let powerball = parseInt(results[6], 10);
   let winningNums = results.slice(1, 6).map((num) => parseInt(num, 10));
   let total = 0;
 
