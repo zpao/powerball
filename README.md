@@ -15,3 +15,7 @@ Where `tickets.csv` looks like this:
 ```csv
 1,5,07,66,37,22
 ```
+
+It looks like this:
+
+![](./screenshot.png)
